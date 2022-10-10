@@ -14,7 +14,7 @@ export default {
         {
           id: 3,
           link:"seel",
-          name:"SEEL"
+          name:"Socio-Emotional Well Being"
         },
         {
           id: 4,
