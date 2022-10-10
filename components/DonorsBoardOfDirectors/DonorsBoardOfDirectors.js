@@ -80,11 +80,17 @@ function DonorsBoardOfDirectors({hide}) {
                   <li>VFS Global Services Pvt.Ltd.</li>
                   <li>Akanksha Education Fund Inc.</li>
                   <li>H.T. Parekh Foundation</li>
-                  <li> Rusy & Purviz Shrous Foundation</li>
+                  <li>Kotak Mahindra Bank</li>
+                  <li>Multiples Equity</li>
+                  <li>Meraki Films</li>
+                  <li>Rusy & Purviz Shroff Charitable Foundation</li>
+                  <li>Praxis Global</li>
                   <li>Kids In Need Of Education (KINOE)</li>
+                  <li>United Way of Mumbai</li>
+                  <li>JP Morgan</li>
                   <li>Mphasis F1 Foundation</li>
                   <li>Thermax Foundation</li>
-                  <li> Saint Gobain India Foundation</li>
+                  <li>Saint Gobain India Foundation</li>
                   <li>R.G. Manudhane Foundation for Excellence</li>
                   <li>Give Foundation</li>
                   <li>Hamilton Houseware Limited</li>
