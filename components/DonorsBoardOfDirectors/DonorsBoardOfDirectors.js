@@ -32,7 +32,7 @@ function DonorsBoardOfDirectors({hide}) {
                 the purpose of a school? It has always laid
                 emphasis on holistic development of its
                 students by enhancing their intelligence as well
-                as emotional quotients.
+                as emotional quotient.
                 </p>
             </div>
             <div className="dig-2" id="digPos-8-2"></div>
