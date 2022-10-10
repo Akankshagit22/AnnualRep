@@ -7,7 +7,7 @@ import Head from 'next/head';
 export default function Home() {
   return <div>
     <Head>
-        <title>Akanksha&apos;s Annual Report 21-22</title>
+        <title>Akanksha&apos;s Annual Report 21-22 | Akanksha Foundation</title>
         <meta name="title" content="Akanksha's Annual Report 21-22"/>
         <meta name="description" content="An artistic take on the organizational structure & activities of Akanksha Foundation through the eyes of Dhanashree Birajdar"/>
 
