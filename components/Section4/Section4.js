@@ -62,7 +62,7 @@ function Section4({hide}) {
                 </p>
             </div>
             <a  href='https://www.brookings.edu/essay/collaborating-to-transform-and-improve-education-systems-a-playbook-for-family-school-engagement/' className='ext-link-1' target="_blank" rel="noreferrer">&nbsp;</a>
-            <a  href='https://vidhilegalpolicy.in-/research/start-ing-from-scratch-the-role-of-parents-teachers-and-te' className='ext-link-2' target="_blank" rel="noreferrer">&nbsp;</a>
+            <a  href='https://vidhilegalpolicy.in/research/starting-from-scratch-the-role-of-parents-teachers-and-tech-in-early-childhood-education-during-covid-19/' className='ext-link-2' target="_blank" rel="noreferrer">&nbsp;</a>
         </CommunityStyled>
     
   )

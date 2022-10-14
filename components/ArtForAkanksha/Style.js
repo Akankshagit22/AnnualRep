@@ -167,7 +167,6 @@ const ArtStyled = styled.div`
         z-index: 10;
         left: 17%;
         margin-left: 1%;
-        border: 1px solid red;
 
     }
 `;
