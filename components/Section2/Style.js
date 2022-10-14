@@ -30,6 +30,32 @@ const AcademicStyled = styled.div`
         transform: translateX(50%) rotate(0);
         opacity:0;
     }
+    .ext-link-1{
+        top: 4%;
+        transform: translateX(50%);
+        opacity: 1;
+        -webkit-transition: all ease .3s;
+        transition: all ease .3s;
+        position: absolute;
+        width: 3%;
+        height: 12%;
+        z-index: 10;
+        left: 61%;
+        margin-left: 11%;
+    }
+    .ext-link-2{
+        top: 16%;
+        transform: translateX(50%);
+        opacity: 1;
+        -webkit-transition: all ease .3s;
+        transition: all ease .3s;
+        position: absolute;
+        width: 3%;
+        height: 10%;
+        z-index: 10;
+        left: 61%;
+        margin-left: 11%;
+    }
 `;
 
 export {AcademicStyled}

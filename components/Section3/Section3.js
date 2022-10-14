@@ -112,6 +112,8 @@ function Section3({hide}) {
                               </div> 
               }
             </div>
+            <a  href='https://www.emory.edu/home/index.html' className='ext-link-1' target="_blank" rel="noreferrer">&nbsp;</a>
+            <a  href='https://dalailamatrust.org/' className='ext-link-2' target="_blank" rel="noreferrer">&nbsp;</a>
         </SeelStyled>
     
   )

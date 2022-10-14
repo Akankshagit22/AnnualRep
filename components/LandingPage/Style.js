@@ -21,11 +21,12 @@ const HomeStyled = styled.div`
    }
    .hero-logo{
     width: 100%;
-    max-width: 25vw;
+    max-width: 21vw;
     margin: 0 auto;
     color: #000;
     @media(max-width:600px){
-        max-width: 300px;
+        max-width: 200px;
+        margin-bottom: 20px;
     }
     @media(max-height:600px){
         max-width: 40vh;
@@ -48,8 +49,8 @@ const HomeStyled = styled.div`
         z-index: 2;
         width: 25%;
         &.anim-cloud-1{
-            animation: cloud1 2s forwards;
-            animation-delay: 7.2s;
+            animation: cloud1 .5s forwards;
+            animation-delay: .1s;
         }
        
     }
@@ -59,8 +60,8 @@ const HomeStyled = styled.div`
         z-index: 2;
         width: 25%;
         &.anim-cloud-2{
-            animation: cloud2 1.2s forwards;
-            animation-delay: 7.6s;
+            animation: cloud2 .7s forwards;
+            animation-delay: .2s;
         }
        
     }
@@ -71,8 +72,8 @@ const HomeStyled = styled.div`
         width: 80%;
         transform: translateX(-50%);
         &.anim-cloud-3{
-            animation: cloud3 1.5s forwards;
-            animation-delay:7.4s;
+            animation: cloud3 .8s forwards;
+            animation-delay:.3s;
         }
     }
 `;
@@ -89,12 +90,12 @@ const SpotlightContent = styled.div`
         align-items: center;
         height: 100vh;
         width: 100%;
-        z-index:2;
+        z-index:3;
         transition:all ease .3s;
     }
     &.fadeOut{
         animation: fadeOut 1.5s forwards;
-        animation-delay:8s;
+        animation-delay:.3s;
         z-index: -1;
     }
     h1{
@@ -121,13 +122,14 @@ const SpotlightContent = styled.div`
         }
         &.fadeOutTitle{
             animation: fadeOutTitleAnim 1.5s forwards;
-            animation-delay:.5s;
+            animation-delay:1s;
             z-index: -1;
         }
 
     }
     .slideContent{
         position: relative;
+        z-index: 3;
 
     }
     p.content-block{
@@ -154,7 +156,7 @@ const SpotlightContent = styled.div`
         }
         &.fadeInContent{
             animation: fadeInContent 1.5s forwards;
-            animation-delay:1s;
+            animation-delay:1.7s;
             z-index: -1;
         }
     }
@@ -162,11 +164,17 @@ const SpotlightContent = styled.div`
         width: 20vw;
         text-align: center;
         margin: 0 auto;
+        transition: all ease .3s;
         img{
             width: 100%;
         }
         @media(max-height:600px){
             width: 25vh;
+        }
+        &.fadeOutLine{
+            animation: fadeOutLineAnim 1.5s forwards;
+            animation-delay:1s;
+            z-index: -1;
         }
     }
     h3.btn_continue{
@@ -175,13 +183,30 @@ const SpotlightContent = styled.div`
         font-family: 'Work Sans', sans-serif;
         cursor: pointer;
         letter-spacing: -1px;
-        padding: 20px;
+        padding:0 20px 40px;
+        visibility: hidden;
+        text-align: center;
+        transition:all ease .3s;
+       
         @media(min-width:768px){
             font-size: 20px;
+            margin-top: -30px;
         }
-        &.fadeOutButton{
-            visibility: hidden;
+        &.fadeInButton{
             z-index: -1;
+            animation: fadeInButtonAnim 1.5s forwards;
+            animation-delay:2s;
+        }
+        img{
+            width:25vw;
+            max-width: 250px;
+            display: inline-block;
+            @media(max-width:600px){
+                width:150px;
+            }
+            @media(max-height:600px){
+                width:125px;
+            }
         }
     }
    

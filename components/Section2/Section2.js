@@ -27,10 +27,8 @@ function Section2({hide}) {
             return { top: _y, left: _x };
         }
         var a = getOffset( document.getElementById(i) ).left;
-        console.log(a,"felix")
         if(a<0) {
           document.getElementById(j).play();
-          console.log(a,"fel")
             
         }
         else {
@@ -82,6 +80,8 @@ function Section2({hide}) {
                 <Image loader={imgLoader} src='/assets/images/academic-excellence-fg.webp' layout='fill'
     objectFit='contain' alt=""/>
             </div>
+            <a  href='https://www.raz-plus.com/' className='ext-link-1' target="_blank" rel="noreferrer">&nbsp;</a>
+            <a  href='https://www.khanacademy.org/' className='ext-link-2' target="_blank" rel="noreferrer">&nbsp;</a>
 
             <div className="dig-1" id="digPos-4"></div>
             <div className="dialogue" id="dialogue-4">

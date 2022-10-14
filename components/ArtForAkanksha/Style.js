@@ -100,6 +100,76 @@ const ArtStyled = styled.div`
         width:100%;
         height:auto;
     }
+    .ext-link-1{
+        top: 30%;
+        transform: translateX(50%);
+        opacity: 1;
+        transition: all ease .3s;
+        position: absolute;
+        width: 3.2%;
+        height: 8%;
+        z-index: 10;
+        right: 33.5%;
+        margin-right: 1%;
+    }
+    .ext-link-2{
+        top: 38%;
+        transform: translateX(50%);
+        opacity: 1;
+        transition: all ease .3s;
+        position: absolute;
+        width: 3.2%;
+        height: 9%;
+        z-index: 10;
+        right: 33.5%;
+        margin-right: 1%;
+
+
+    }
+    .ext-link-3{
+        top: 26%;
+        transform: translateX(50%);
+        opacity: 1;
+        transition: all ease .3s;
+        position: absolute;
+        width: 3.2%;
+        height: 23%;
+        z-index: 10;
+        left: 25%;
+        margin-left: 1%;
+
+
+    }
+    .ext-link-4{
+        top: 26%;
+        transform: translateX(50%);
+        opacity: 1;
+        -webkit-transition: all ease .3s;
+        transition: all ease .3s;
+        position: absolute;
+        width: 3.2%;
+        height: 56%;
+        z-index: 10;
+        left: 31%;
+        margin-left: 1%;
+
+    }
+    .ext-link-5{
+        top: 2%;
+        transform: translateX(50%);
+        opacity: 1;
+        -webkit-transition: all ease .3s;
+        -webkit-transition: all ease .3s;
+        transition: all ease .3s;
+        position: absolute;
+        width: 4.2%;
+        height: 35%;
+        z-index: 10;
+        left: 17%;
+        margin-left: 1%;
+        border: 1px solid red;
+
+    }
 `;
 
 export {ArtStyled}

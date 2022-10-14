@@ -80,6 +80,11 @@ function ArtForAkanksha({hide}) {
               <img  src="/assets/images/moving-deer.gif"  alt=""/>
 
             </div>
+            <a  href='https://www.youtube.com/watch?v=MT1ees9oI7w' className='ext-link-1' target="_blank" rel="noreferrer">&nbsp;</a>
+            <a  href='https://www.akanksha.org/wp-content/uploads/2021/10/IMG-20211014-WA0001.jpg' className='ext-link-2' target="_blank" rel="noreferrer">&nbsp;</a>
+            <a  href='https://www.akanksha.org/heart-for-art/' className='ext-link-4' target="_blank" rel="noreferrer">&nbsp;</a>
+            <a  href='https://aaghazedos-ti.wordpress.com/' className='ext-link-5' target="_blank" rel="noreferrer">&nbsp;</a>
+           
             
     </ArtStyled>
   )

@@ -38,22 +38,24 @@ function LandingPage({heroShow,setHeroShow}) {
           <img src="/assets/images/logo.png" />
         </h1>
         <div className='slideContent'>
-        <h2 className={isActive ? 'fadeOutTitle ' : ' '}>annual report <br/>
+        <h2 className="fadeOutTitle">annual report <br/>
             2022</h2>
-            <p  className={isActive ? 'fadeInContent content-block' : 'content-block '}>Welcome to Akanksha’s annual report 2021-2022. We take you through the journey of the year, through the eyes of our alumni Dhanashree Birajdar</p>
+            <p  className="fadeInContent content-block">Welcome to Akanksha’s annual report 2021-2022. We take you through the journey of the year, through the eyes of our alumni Dhanashree Birajdar</p>
             </div>
-        <div className='line'>
+        <div className='line fadeOutLine'>
           <img src="/assets/images/underline.png" />
         </div> 
         <h3  onClick={()=>{
            handleClick();
           setTimeout(() => {
             setHeroShow(false);
-          }, 8500);
+          }, 1000);
           setTimeout(() => {
             document.querySelector(".container__character").classList.add("charActive");
-          }, 11000);
-        }} className={isActive ? 'fadeOutButton btn_continue' : 'btn_continue '}>Click here to continue</h3>
+          }, 3000);
+        }} className="fadeInButton btn_continue">
+          <img src="/assets/images/click-to-continue-button.svg" />
+        </h3>
       </SpotlightContent>
     </HomeStyled>
   )

@@ -29,6 +29,8 @@ function Alumni2({hide}) {
                 formalities. 
                 </p>
             </div>
+            <a  href='https://lighthouseproject.in/' className='ext-link-1' target="_blank" rel="noreferrer">&nbsp;</a>
+            <a  href='https://globalmentorship.org/schools/akanksha/' className='ext-link-2' target="_blank" rel="noreferrer">&nbsp;</a>
         </AlumniStyled>
     
   )

@@ -79,6 +79,31 @@ const SeelStyled = styled.div`
         width:100%;
         height:auto;
     }
+    .ext-link-1{
+        top: 18%;
+        transform: translateX(50%);
+        opacity: 1;
+        transition: all ease .3s;
+        position: absolute;
+        width: 3.2%;
+        height: 5%;
+        z-index: 10;
+        left: 32.5%;
+        margin-left: 1%;
+    }
+    .ext-link-2{
+        top: 22.7%;
+        transform: translateX(50%);
+        opacity: 1;
+        transition: all ease .3s;
+        position: absolute;
+        width: 3.2%;
+        height: 5%;
+        z-index: 10;
+        left: 32.5%;
+        margin-left: 1%;
+
+    }
 `;
 
 export {SeelStyled}

@@ -38,6 +38,8 @@ function ArtForAkanksha2({hide}) {
               <img  src="/assets/images/white-board-stats.gif"  alt=""/>
 
             </div>
+            <a  href='https://diksha.gov.in/play/colletion/do_3130887225525698561176?contentType=TextBook' className='ext-link-3' target="_blank" rel="noreferrer">&nbsp;</a>
+           
     </ArtStyled>
   )
 }

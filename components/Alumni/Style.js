@@ -41,6 +41,30 @@ const AlumniStyled = styled.div`
         transform: translateX(50%) rotate(0);
         opacity:0;
     }
+    .ext-link-1{
+        top: 16%;
+        transform: translateX(50%);
+        opacity: 1;
+        transition: all ease .3s;
+        position: absolute;
+        width: 4%;
+        height: 18%;
+        z-index: 10;
+        left: 51.5%;
+        margin-left: 11%;
+    }
+    .ext-link-2{
+        top: 35%;
+        transform: translateX(50%);
+        opacity: 1;
+        transition: all ease .3s;
+        position: absolute;
+        width: 4%;
+        height: 18%;
+        z-index: 10;
+        left: 51.5%;
+        margin-left: 11%;
+    }
 `;
 
 export {AlumniStyled}
