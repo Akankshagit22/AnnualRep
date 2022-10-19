@@ -5,11 +5,14 @@ const imgLoader = ({ src, quality }) => {
   return `${src}?&q=${quality || 95}`
 }
 function Alumni({hide}) {
+  const [isLoaded, setIsLoaded] = React.useState(false);
+
   return (
     
         <AlumniStyled className={hide?'section_story':'section_story section-show'} >
             <div className="background">
-                <Image loader={imgLoader} src='/assets/images/alumni-bg-1.webp' layout='fill' objectFit='contain' alt=""/>
+                <img  src="/assets/images/alumni-bg-1.webp"  style={{ display: isLoaded ? "none" : "block" }} className="image thumb"/>
+                <img className="image full"  src="/assets/images/alumni-bg-1.webp"  onLoad={() => {setIsLoaded(true);}} style={{ opacity: isLoaded ? 1 : 0 }}/>
             </div>
             <div className="foreground">
                 <Image loader={imgLoader} src='/assets/images/alumni-fg-1.webp' layout='fill' objectFit='contain' alt=""/>

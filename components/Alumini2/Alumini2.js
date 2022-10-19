@@ -6,11 +6,15 @@ const imgLoader = ({ src, width, quality }) => {
   }
 
 function Alumni2({hide}) {
+  const [isLoaded, setIsLoaded] = React.useState(false);
+
   return (
     
         <AlumniStyled className={hide?'section_story alumni-2':'section_story section-show alumni-2'} >
             <div className="background">
-                <Image loader={imgLoader} src='/assets/images/alumni-bg-2.webp' layout='fill' objectFit='contain' alt=""/>
+               
+                <img  src="/assets/images/alumni-bg-2.webp"  style={{ display: isLoaded ? "none" : "block" }} className="image thumb"/>
+                <img className="image full"  src="/assets/images/alumni-bg-2.webp"  onLoad={() => {setIsLoaded(true);}} style={{ opacity: isLoaded ? 1 : 0 }}/>
             </div>
             <div className="foreground">
                 <Image loader={imgLoader} src='/assets/images/alumni-fg-2.webp' layout='fill' objectFit='contain' alt=""/>

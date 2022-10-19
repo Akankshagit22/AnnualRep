@@ -11,7 +11,7 @@ function ArtForAkanksha2({hide}) {
     
     <ArtStyled className={hide?'section_story art-2':'section_story section-show  art-2'}>
         <div className="background">
-                <img  src="/assets/images/art-for-akanksha-bg-2.webp" style={{ display: isLoaded ? "none" : "block" }} className="image thumb" alt=""/>
+                <img  src="/assets/images/art-for-akanksha-bg-2.jpg" style={{ display: isLoaded ? "none" : "block" }} className="image thumb" alt=""/>
                 <img className="image full"  src="/assets/images/art-for-akanksha-bg-2.webp"  onLoad={() => {setIsLoaded(true);}} style={{ opacity: isLoaded ? 1 : 0 }}/>
             </div>
             <div className="foreground">

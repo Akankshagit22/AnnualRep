@@ -1,16 +1,19 @@
 import React from 'react';
 import Image from 'next/image';
 import { CommunityStyled } from './Style';
+
 const imgLoader = ({ src, width, quality }) => {
     return `${src}?&q=${quality || 95}`
   }
 function Section4({hide}) {
+const [isLoaded, setIsLoaded] = React.useState(false);
+
   return (
     
         <CommunityStyled className={hide?'section_story':'section_story section-show'} id="community-engagement">
             <div className="background">
-            <Image loader={imgLoader} src='/assets/images/community-engagement-bg.webp' layout='fill'
-    objectFit='contain' alt=""/>
+                <img  src="/assets/images/community-engagement-bg.jpg"  style={{ display: isLoaded ? "none" : "block" }} className="image thumb"/>
+                <img className="image full"  src="/assets/images/community-engagement-bg.webp"  onLoad={() => {setIsLoaded(true);}} style={{ opacity: isLoaded ? 1 : 0 }}/>
             </div>
             <div className="foreground">
             <Image loader={imgLoader} src='/assets/images/community-engagement-fg.webp' layout='fill'

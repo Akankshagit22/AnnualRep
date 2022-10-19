@@ -12,12 +12,16 @@ function Section3({hide}) {
     const onShowLess=()=>{
       setShowLess(true);
     }
+  const [isLoaded, setIsLoaded] = React.useState(false);
+
   return (
     
         <SeelStyled className={hide?'section_story':'section_story section-show'} id="seel">
             <div className="background">
-            <Image loader={imgLoader} src='/assets/images/seel-bg.webp' layout='fill'
-    objectFit='contain' alt="" loading="lazy"/>
+
+                <img  src="/assets/images/seel-bg.pg"  style={{ display: isLoaded ? "none" : "block" }} className="image thumb"/>
+                <img className="image full"  src="/assets/images/seel-bg.webp"  onLoad={() => {setIsLoaded(true);}} style={{ opacity: isLoaded ? 1 : 0 }}/>
+
             </div>
             <div className="foreground">
               <Image loader={imgLoader} src='/assets/images/seel-fg.webp' layout='fill'

@@ -22,8 +22,8 @@ const AlumniStyled = styled.div`
     }
     .dig-3{
        
-       left: 3%;
-       margin-left:31%;
+       left: 0%;
+       margin-left:28%;
        
    }
     .dig-1,.dig-2,.dig-3{

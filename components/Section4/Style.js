@@ -6,7 +6,7 @@ const CommunityStyled = styled.div`
     width: calc(var(--height) * var(--aspect-ratio4));
     overflow: hidden;
     .dig-1{
-        left: 14%;
+        left: 7%;
         margin-left: -9%;
     }
     .dig-2{

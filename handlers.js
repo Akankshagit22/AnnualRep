@@ -39,7 +39,7 @@ export function renderBoxes() {
     showBox('digPos-4-3',350,'dialogue-4-3');
     showBox('digPos-5-1',350,'dialogue-5-1');
     showBox('digPos-5-2',350,'dialogue-5-2');
-    showBox('digPos-5-3',350,'dialogue-5-3');
+    showBox('digPos-5-3',150,'dialogue-5-3');
     showBox('digPos-6-1',350,'dialogue-6-1');
     showBox('digPos-6-2',300,'dialogue-6-2');
     showBox('digPos-6-3',350,'dialogue-6-3');

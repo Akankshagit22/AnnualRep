@@ -48,6 +48,8 @@ function Section2({hide}) {
     
 
    })
+  const [isLoaded, setIsLoaded] = React.useState(false);
+
   return (
    
     
@@ -73,8 +75,10 @@ function Section2({hide}) {
 
             </div>
             <div className="background">
-                <Image loader={imgLoader} src='/assets/images/academic-excellence-bg.webp' layout='fill'
-    objectFit='contain' alt=""/>
+
+                <img  src="/assets/images/academic-excellence-bg.jpg"  style={{ display: isLoaded ? "none" : "block" }} className="image thumb"/>
+                <img className="image full"  src="/assets/images/academic-excellence-bg.webp"  onLoad={() => {setIsLoaded(true);}} style={{ opacity: isLoaded ? 1 : 0 }}/>
+
             </div>
             <div className="foreground">
                 <Image loader={imgLoader} src='/assets/images/academic-excellence-fg.webp' layout='fill'

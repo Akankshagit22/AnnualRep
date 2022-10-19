@@ -64,7 +64,7 @@ course.
                 every kid, just like how Akanksha has been
                 doing for over 30 years!
                 Through this report, I&lsquo;ll take you through
-                Akanksha&lsquo;s journey in the last year. 
+                Akanksha&apos;s journey in the last year. 
                               </p>
                               <div onClick={onShowLess} className="btn_read-less"><img src="/assets/images/arrow.png"  alt=""/></div>
                               </div> 
